@@ -1,0 +1,60 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" >
+   <!--<test name="Annotations" >
+   <classes>
+       <class name="com.edureka.Excel.TestNGAnnotations" />
+   </classes>
+  </test>
+  <test name="Priority">
+  <classes>
+  	<class name="com.edureka.Excel.TestNG_Priority"/>
+  </classes>
+  </test>-->
+  <!--<test name ="TestNG_Groups">
+  <groups>
+  <run>
+  <include name="demo"></include>
+  </run>
+  </groups>
+  <classes>
+  <class name="com.edureka.Excel.TestNG_Groups"/>
+  </classes>
+  </test>-->
+  <!--<test name ="TestNG_NestedGroups">
+  <groups>
+  <define name="SuperGroup">
+  <include name="demo"></include>
+  </define>
+  <run>
+  <include name="SuperGroup"></include>
+  </run>
+  </groups>
+  <classes>
+  <class name="com.edureka.Excel.TestNG_NestedGroups"/>
+  </classes>
+  </test>-->
+ <!-- <test name="TestNG_Groups_Exclude">
+  <groups>
+  <run>
+  <exclude name="demo1">
+  </exclude>
+  </run>
+  </groups>
+  <classes>
+  <class name="com.edureka.Excel.TestNG_Groups_Exclude"/>
+  </classes>
+  </test>-->
+ <!-- <listeners>
+    <listener class-name="com.edureka.Excel.ExtentReportListener"/>
+  </listeners>
+  <test name="Google Search Test">
+    <classes>
+      <class name="com.edureka.Excel.GoogleSearchTest"/>
+    </classes>
+  </test>-->
+  <test name="LoginTests">
+    <classes>
+      <class name="com.edureka.Excel.LoginTest"/>
+    </classes>
+  </test>
+  </suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MySuite" parallel="tests" thread-count="2">
+    <test name="Test1">
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.edureka.Excel.MyTestClass" />
+        </classes>
+    </test>
+    <!--<test name="Test2">
+        <classes>
+            <class name="com.edureka.Excel.SampleTestNG" />
+        </classes>
+    </test>-->
+    <test name="Test3">
+    <parameter name="Url" value="www.google.com"/>
+        <classes>
+            <class name="com.edureka.Excel.ParameterTestNG" />
+        </classes>
+    </test>
+    <test name="Test4">
+        <classes>
+            <class name="com.edureka.Excel.Depends" />
+        </classes>
+    </test>
+</suite>
